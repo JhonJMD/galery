@@ -16,7 +16,7 @@ body{
 
     background-color: #03afff;
     border-radius: 4px;
-    transition: transform 0.3s case-in-out;
+    transition: transform 0.3s ease-in-out;
     border: solid 1px #ffffff;
 
     background-size: cover;
