@@ -42,3 +42,57 @@
 }
 ```
 
+**Media-Query:** Permite aplicar estilos específicos a un documento HTML en función de las características del dispositivo en el que se esta visualizando.   
+
+```
+@media (){
+
+}
+```
+
+**min-width: ** Permite establecer el ancho mínimo que un elemento debe tener. 
+
+```
+@media (min-width: 600px){
+
+}
+```
+
+**span:** Permite especificar la cantidad de columnas o filas que un elemento de la cuadricula ocupara en un diseño de cuadriculas CSS.
+
+```
+@media (min-width: 600px){
+    .wide{
+        grid-column: span 2;
+    }
+
+    .tall{
+        grid-row: span 2;
+    }
+}
+```
+
+**background-size: cover; :** Permita hacer que una imagen de fondo cubra completamente el área del elemento al que se le aplica. 
+
+```
+.grid-item{
+    background-size: cover;
+}
+```
+
+**background-position: center; :** Permite establecer la posición central de la imagen de fondo dentro del contenedor al que se le aplica. 
+
+```
+.grid-item{
+    background-position: center;
+}
+```
+
+**background-repeat: no-repeat; :** Permite asegurar que la imagen de fondo no se repita en el contenedor al que se le aplica. 
+
+```
+.grid-item{
+    background-repeat: no-repeat;
+}
+```
+
